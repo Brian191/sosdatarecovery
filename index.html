@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+<meta name="keywords" content="資料救援, 資料回複, 救資料, 硬碟救援, 硬碟資料, 硬碟故障, 硬碟損壞, BIOS抓不到, 誤格式化, 硬碟受損, 誤分割, 誤刪除資料, 資料覆寫, 檔案覆寫, 硬碟無法開機, 讀不到資料, 資料毀損, 資料遺失, 檔案不見, Ghost錯誤, 誤刪除磁區, data recovery, 病毒破壞, 中毒, 磁碟陣列, RAID, 搶救資料, 拯救資料, 硬碟送修, 救回資料, 資料還原, 救硬碟, 資料恢複, 救回檔案" />
+<meta name="keywords" content="資料救援, 資料回複, 救資料, 硬碟救援, 硬碟資料, 硬碟故障, 硬碟損壞, BIOS抓不到, 誤格式化, 硬碟受損, 誤分割, 誤刪除資料, 資料覆寫, 檔案覆寫, 硬碟無法開機, 讀不到資料, 資料毀損, 資料遺失, 檔案不見, Ghost錯誤, 誤刪除磁區, data recovery, 病毒破壞, 中毒, 磁碟陣列, RAID, 搶救資料, 拯救資料, 硬碟送修, 救回資料, 資料還原, 救硬碟, 資料恢複, 救回檔案" />
+<title>SOS硬碟資料救援</title>
+<link type="text/css" href="css/main.css" rel="stylesheet" />
+<script type="text/javascript" src="js/component/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/agentinfo.js"></script>
+<script src="js/menus.js" language="javascript" type="text/javascript"></script>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jq_scroll.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+        $("#scrollDiv").Scroll({line:1,speed:500,timer:800,up:"but_up",down:"but_down"});
+});
+</script>
+<script type="text/javascript" language="javascript" >
+	function showMenu(menus,lefts){
+	//.style.marginLeft
+	//alert("guipyuipy");
+		var arr = ['fwxm','hdxx','xs','ly'];
+
+		for(var i=0;i<arr.length;i++){
+
+			document.getElementById(arr[i]).style.display='none';
+		}
+		//alert("sss");
+		//show.display='block';
+		 var a = new Array();
+		a = document.getElementsByName("menu");
+		//for (i = 0; i < a.length; i++) {
+		//	a[i].style.display='none';
+			//a[i].className = "";
+	   // }
+			var show=document.getElementById(menus);
+	  // show.className = "visit";
+	   show.style.display='block';
+		//show.style.marginLeft=left;
+	}
+</script>
+<style>
+#demo2 { height:auto; text-align:left; }
+#demo1 li { list-style-type:none; height:22px; background:url() no-repeat left center; text-align:left; text-indent:15px; }
+#demo2 li { list-style-type:none; height:22px; background:url() no-repeat left center; text-align:left; text-indent:15px; }
+</style>
+<style>
+#demo2 { height:auto; text-align:left; }
+#demo1 li { list-style-type:none; height:22px; background:url() no-repeat left center; text-align:left; text-indent:15px; }
+#demo2 li { list-style-type:none; height:22px; background:url() no-repeat left center; text-align:left; text-indent:15px; }
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2402952-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5&appId=1524419471122030";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</head>
+
+<body>
+<div id="top">
+  <div class="logo"><img src="images/logo.gif" /></div>
+  <div class="top_right">
+    <div class="link"><a href="index.html" >返回首頁</a> | <a href="main.html">聯繫我們</a> | <a href="kf.html">線上客服</a>|<a href="jt/index.html">簡体中文</a> </div>
+    <div class="language"> <a href="jt/index.html"><img src="images/11.jpg" /></a> <a href="jp/index.html"><img src="images/12.jpg" /></a> <a href="en/index.html"><img src="images/13.jpg" /></a> <a href="index.html"><img src="images/14.jpg" /></a> </div>
+  </div>
+  <div class="clear"></div>  <div style="float:right;"><a href="kf.html"><img src="images/phone.jpg" /></a></div>
+</div>
+<!----------top end- margin-left:40px;-------->
+
+<div class="nav">
+  <div style="float:left;"><img src="images/nav-left.gif" /></div>
+  <ul>
+<li><a href="fwxm.html" onmouseover="showMenu('fwxm','40')">服務項目</a></li>
+           <li><a href="cglsm.html">成功率說明</a></li>
+           <li><a href="news.html">免費公益活動</a></li>
+           <li><a href="hr.html" onmouseover="showMenu('xs','40')">24HR緊急報修  </a></li>
+           <li><a href="main.htm" onmouseover="showMenu('hdxx','284')" >公司地址</a></li>
+           <li><a href="success.html">知名成功案例</a></li>
+<li><a href="http://toolkit.url.com.tw/bbs/index.php?email=bbs@02-33651599.com.tw" target="_blank" onmouseover="showMenu('ly','152')">留言板</a></li>
+               <li style="background:none;"><a href="kf.html">線上客服</a></li>
+  </ul>
+  <div style="float:right;"><img src="images/nav-right.gif" /></div>
+  <div class="clear"></div>
+  <div class="nav_02" name="menu" id="fwxm">
+        <a href="data recovery service.htm">硬碟資料救援</a>
+                       <a href="raid.html">RIAD磁碟陣列資料救援</a>
+                       <a href="delete.html">代客銷毀資料</a>
+                       <a href="backup.html">代客備份資料</a>
+                       <a href="flesh.htm">隨身碟記憶卡資料救援</a>
+                       <a href="">手機資料救援</a>
+                       <!--a href="gongsi.html">公司沿格</a-->
+                    </div>
+  <div class="nav_02" style=" display:none;" name="menu" id="hdxx"> <a href="main.html">台灣台北收件中心</a> <a href="adress02.html">大陸杭州收件中心</a> <a href="adress03.html">日本東京收件中心</a> <a href="adress04.html">美國洛杉磯收件中心</a> </div>
+  <div class="nav_02" style=" display:none;"  name="menu" id="xs"> <a href="#">線上維修表單</a> </div>
+  <div class="nav_02" style=" display:none;" name="menu" id="ly"> <a href="https://app.myweb.hinet.net/guestbook/guestbook.asp?uid=sex999" target="_blank">線上留言</a> </div>
+  <div class="tsfx"><span>推薦分享到：</span><a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));"><img src="images/facebook.png" width="16" title="facebook！"></a> <a href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));"><img src="images/twitter.png" width="16" title="分享到twitter！" ></a> <a href="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&status=' .concat(encodeURIComponent(location.href)) .concat(' ') .concat('&#40;') .concat(encodeURIComponent(document.title)) .concat('&#41;')));"><img src="images/plurk.png" width="16" title="分享到plurk！" ></a> <a target="_blank" href="http://v.t.sina.com.cn/share/share.php?title=SOS硬碟資料救援&url=http://www.02-33651599.com.tw"><img title="分享到微博！" src="images/sina.png" border="0" width="16" /></a><!-- <a target="_blank" href="https://plus.google.com/share?url=http://www.02-33651599.com.tw"><img title="分享到Google+！" src="images/gplus-32.png" border="0" width="16" /></a>--></div>
+</div>
+<div style=" width:940px; margin:auto; position:relative">
+<div class="Move"></div>
+	<div style=" background:url(images/kv.jpg) no-repeat;width:100%;height:215px; float:left;"></div>
+    <!--<div style=" background:url(images/bu.jpg) no-repeat;width:307px;height:152px; position:absolute; right:1px; top:10px;"></div>-->
+    <div style=" clear:both"></div>
+<div style="position:absolute; bottom:12px; left:0px;">
+<div class="fb-like" data-href="http://www.02-33651599.com.tw/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+</div>
+</div>
+<div id="banner" style="position:relative; display:none">
+
+</div>
+<div id="main" style="padding:0px;">
+  <div class="left">
+    <div class="left_nr">
+      <div class="left01"> <a href="#"><img src="images/tit_01.jpg" /></a>
+        <ul>
+          <li><a href="paypal.html">paypal線上付款</a></li>
+          <li><a href="fizaldata recovery service.htm">救資料免費教學</a></li>
+          <li><a href="app.html">手機程式AP設計</a></li>
+          <li><a href="zhaopin.html">最新招聘訊息庫</a></li>
+          <li><a href="hdauto.html">硬碟的運作原理</a></li>
+          <li><a href="news.html">活動訊息資料庫</a></li>
+          <li><a href="http://settings.messenger.live.com/Conversation/IMMe.html?invitee=622424d0cc2b94d1@apps.messenger.live.com&mkt=en-US" target="_blank">獻上即時通話器</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="left04" id="scrollDiv" >
+        <p><img src="images/tit004.jpg" /></p>
+        <p>&nbsp; </p>
+        <div id="demo" style="overflow:hidden;height:290px;width:230px;line-height:24px;text-align:center">
+          <ul id="demo1" style="text-align:center;">
+            台灣積體電路製造股份有限公司<br>
+            家事達不動產有限公司<br>
+            中華民國外交部<br>
+            聯華電子股份有限公司<br>
+            鴻海精密工業(股)公司<br>
+            中央選舉委員會<br>
+            高雄醫學院附設醫院<br>
+            教育測驗出版社<br>
+            中國鋼鐵股份有限公司<br>
+            國立清華大學<br>
+            泰藝電子股份有限公司<br>
+            國軍高雄總醫院<br>
+            裕隆汽車<br>
+            日月光半導體製造股份有限公司<br>
+            新光金融控股股份有限公司<br>
+            南亞科技股份有限公司<br>
+            大同股份有限公司<br>
+            中華航空股份有限公司<br>
+            國立中山大學<br>
+            鳳凰衛視<br>
+            亞東醫院外科陳醫生<br>
+            遠東國際商業銀行<br>
+            腳映國際有限公司<br>
+            國立臺灣師範大學<br>
+            新竹南門綜合醫院<br>
+            環球優士技術有限公司<br>
+            長庚大學<br>
+            精誠資訊股份有限公司<br>
+            臺灣電視事業股份有限公司<br>
+            黑松股份有限公司<br>
+            台灣玻璃工業股份有限公司<br>
+            美國USA羅技公司LA總部<br>
+            佳世達科技股份有限公司<br>
+            晶通電子股份有限公司<br>
+            國立中正大學<br>
+            HEADQUARTERS<br>
+            裕隆汽車製造股份有限公司<br>
+            群益證券股份有限公司<br>
+            旺矽科技股份有限公司<br>
+            全國性文藝團體<br>
+            金寶電子工業股份有限公司<br>
+            矽統科技股份有限公司<br>
+            元富證券股份有限公司<br>
+            元智大學實驗室<br>
+            東吳大學城中校區<br>
+            緯創資通股份有限公司<br>
+            國立中山大學實驗室<br>
+            國立交通大學<br>
+            致新科技股份有限公司<br>
+            威盛電子股份有限公司<br>
+            正新橡膠工業股份有限公司<br>
+            聯強國際股份有限公司<br>
+            吳毓廷建築師事務所<br>
+            京城商業銀行股份有限公司<br>
+            長榮國際儲運股份有限公司<br>
+            欣興電子股份有限公司<br>
+            國立成功大學<br>
+            正隆股份有限公司<br>
+            華泰電子股份有限公司<br>
+            三商行股份有限公司<br>
+            神基科技股份有限公司<br>
+            成科技股份有限公司<br>
+            智邦科技股份有限公司<br>
+            國軍813醫院<br>
+            林口長庚醫院<br>
+            瑞昱半導體股份有限公司<br>
+            國立臺灣大學實驗室<br>
+            美國安麗公司<br>
+            高林實業股份有限公司<br>
+            國賓大飯店股份有限公司<br>
+            師大美術研究所<br>
+            新北市協助影視拍攝與發展中心<br>
+            宏達國際電子股份有限公司<br>
+            仁寶電腦工業股份有限公司<br>
+            中華開發金融控股股份有限公司<br>
+            中華電信股份有限公司<br>
+            中華映管股份有限公司<br>
+            國立中興大學<br>
+            海洋大學實驗室<br>
+            臺灣中小企業銀行股份有限公司<br>
+            仁寶電腦工業股份有限公司<br>
+            臺灣中小企業銀行股份有限公司<br>
+            台灣大哥大股份有限公司<br>
+            華碩電腦股份有限公司<br>
+            統一企業股份有限公司<br>
+            義隆電子股份有限公司<br>
+            大陸工程股份有限公司<br>
+            聯成化學科技股份有限公司<br>
+            三陽工業股份有限公司<br>
+            台北市立忠孝醫院<br>
+            國立中央大學<br>
+            黑松股份有限公司<br>
+            聯詠科技股份有限公司<br>
+            富邦金融控股股份有限公司<br>
+            台北醫學院附設醫院<br>
+            南亞塑膠工業股份有限公司<br>
+            永豐金融控股股份有限公司<br>
+            台新金融控股股份有限公司<br>
+            鴻海精密工業股份有限公司<br>
+            台北縣板橋醫院<br>
+            彰化商業銀行股份有限公司<br>
+            大榮汽車貨運股份有限公司<br>
+            龍邦開發股份有限公司<br>
+            合勤科技股份有限公司<br>
+            馬偕淡水分院<br>
+            豐泰企業股份有限公司<br>
+            中鼎工程股份有限公司<br>
+            三軍總醫院<br>
+            晶元光電股份有限公司(晶電)<br>
+            高林實業股份有限公司<br>
+            國賓大飯店股份有限公司<br>
+            義隆電子股份有限公司<br>
+            桐化學股份有限公司<br>
+            台達電子工業股份有限公司<br>
+            萬海航運股份有限公司<br>
+            兆豐金融控股股份有限公司<br>
+            國泰金融控股股份有限公司<br>
+            台塑石化股份有限公司<br>
+            中國信託金融控股股份有限公司<br>
+            萬泰商業銀行股份有限公司<br>
+            元大金融控股股份有限公司<br>
+            奇美電子股份有限公司<br>
+            友達光電股份有限公司<br>
+          </ul>
+          <div id="demo2" style="text-align:center"></div>
+        </div>
+      </div>
+    </div>
+    <div class="left03"> <a href="question.htm"><img src="images/004.jpg" /></a> <a href="download.html"><img src="images/002.jpg" /></a> <a href="kf.html" ><img src="images/003.jpg" /></a> <a href="hkxg.html"><img src="images/001.jpg" /></a> </div>
+  </div>
+  <!--------left end---------->
+
+  <div class="right">
+    <div class="right01">
+      <div class="right01_tit">
+        <div style="float:left;"><img src="images/tit02.jpg" /></div>
+        <div style="float:right; padding-top:8px;"><a href="#"></a>
+          <div style="font-size:16px;color:#f00;font-weight:bold;"><span><img src="linemail.files/aa.gif" width="17" height="17" />平價收費</span><span><img src="linemail.files/aa.gif" width="17" height="17" />精緻服務</span><span><img src="linemail.files/aa.gif" width="17" height="17" />快速交件</span></div>
+        </div>
+      </div>
+      <div class="right01_nr">
+        <div style="float:left; clear:right;"></div>
+        <div style="float:right; text-indent:20px; padding:14px; line-height:21px; width:auto;">
+          <p>本中心成立於2000年我們是專業有活力國際研究團隊一直從事相關硬碟修復，硬碟維修，硬碟資料救援，軍事級數據銷毀，硬碟數據備份，手機記憶卡等各種週邊故障、任何週邊儲存裝置、工業電腦CNCX-RAY醫學儀器等數據恢復。故障現象包括：硬碟壞軌、硬碟電路板燒毀、火災、泡水、空難、MBRBOOT各種分區遺失。週邊各類記憶卡儲存卡等救資料服務。在企業、政府，軍方、公司電腦使用端方面：windows、linux等各類作業系統，RAID磁碟陣列卡燒毀、RAID架構訊息遺失、資料遺失刪除，DATABASE修復，檔案伺服器FTP等救硬碟服務的工作、我們一直維持嚴格的品管控制，和品質優良的服務態度是我們追求的目標，也因為如此您的鼓勵與支持，是我們更向前一步不可或缺的推進力。<br />
+            (上班時間)【送件前務必煩請先來電 較遠客戶請利用宅急便黑貓寄送】<br />
+            星期一至星期五:AM09:00-PM20:00  星期六:AM09:00-AM12:00<br />
+            電話: 02-33651599 傳真: 02-33651598 緊急連絡電話: 0936-543-997<br />
+            電子信箱 :  e33651599@gmail.com  skype=e33651599<br />
+            地址：(100)台北市中正區同安街73巷6號 (新店線捷運古亭2號出口走路5分鐘)</p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="right02">
+      <div class="right02_tit">
+        <h3 style="font-size:14px; color:#FFFFFF; float:left;">成功案例</h3>
+        <div style="float:right; padding-top:8px;"><a href="success.html"></a></div>
+      </div>
+      <div class="right02_nr">
+        <div class="box"> <img src="images/s/s064.jpg"/>
+          <p><a href="success.html" style="color:#f00; font-size:14px;">中華民國外交部非洲司/馬先生</a><br/>
+            硬体名稱：<span  style="color:#666;">SAMGSUNG 2.5 40G </span><br/>
+            硬體序號：<span  style="color:#666;">S03WJ10Y277XXX</span><br/>
+            故障原因：<span  style="color:#666;">摔傷磁軌磁頭受損</span><br/>
+            處理狀況：<span  style="color:#666;">費時搶救成功救出完整數據</span> </p>
+        </div>
+        <div class="box"> <img src="images/s/s063.jpg"/>
+          <p><a href="success.html" style="color:#f00; font-size:14px;">國家高速網路宇計算中心/陳先生</a><br/>
+            硬体名稱：<span  style="color:#666;">HITACHI 2.5 40G</span><br/>
+            硬體序號：<span  style="color:#666;">08K08XX </span> <br/>
+            故障原因：<span  style="color:#666;">有怪聲多次強制關機無反應</span><br/>
+            處理狀況：<span  style="color:#666;">成功救出</span> </p>
+        </div>
+        <div class="box"> <img src="images/s/s062.jpg"/>
+          <p><a href="success.html" style="color:#f00; font-size:14px;">旺矽科技股份有限公司/葉XX先生</a><br/>
+            硬体名稱：<span  style="color:#666;">WD 1T 3.5 1000G</span><br/>
+            硬體序號：<span  style="color:#666;">WCAU47899XXX </span> <br/>
+            <span style="color:#666;">伺服器制程HD無法辨識硬碟抓不到</span><br>
+            <span style="text-decoration:underline; font-size:12px; color:#f00" class="flashColor"> (送內湖凌X無法救援)</span><span style="color:#666;">SOS成功救出</span> </p>
+        </div>
+        <div class="box"> <img src="images/s/s061.jpg"/>
+          <p><a href="success.html" style="color:#f00; font-size:14px;">國家太空中心 /葉XX先生</a><br/>
+            硬体名稱：<span  style="color:#666;">HITACHI 2.5 60G</span><br/>
+            硬體序號：<span  style="color:#666;">KEJXETEXX </span> <br/>
+            故障原因：<span  style="color:#666;">過熱 PCBA BIOS完全無反應</span><br/>
+            處理狀況：<span  style="color:#666;">經本公司成功救出太空衛..</span> </p>
+        </div>
+        <div class="box"> <img src="images/s/s060.jpg"/>
+          <p><a href="success.html" style="color:#f00; font-size:14px;">中央研究院環境變遷中心/紀先生</a><br/>
+            硬体名稱：<span  style="color:#666;">SEAGATE 3.5 60G</span><br/>
+            硬體序號：<span  style="color:#666;">9QK0DP5HXXX </span> <br/>
+            故障原因：<span  style="color:#666;">BIOS抓不到無任何反應</span><br/>
+            處理狀況：<span  style="color:#666;">成功救出10年心血結晶</span> </p>
+        </div>
+        <div class="box"> <img src="images/s/s059.jpg"/>
+          <p><a href="success.html" style="color:#f00; font-size:14px;">北縣某國民中學老師/陳小姐</a><br/>
+            硬体名稱：<span  style="color:#666;">HITACHI 3.5 80G</span><br/>
+            硬體型號：<span  style="color:#666;">HTS54080XXX</span> <br/>
+            <span style="color:#666;">硬碟遭覆盖</span><span style="text-decoration:underline; font-size:12px; color:#f00" class="flashColor">(<u>送內湖凌X放棄救援)</u></span><br>
+            <span style="color:#666;"> 委托本中心顺利救出重要個人资料</span> </p>
+        </div>
+        <div class="box"> <img src="images/s/s058.jpg"/>
+          <p><a href="success.html" style="color:#f00; font-size:14px;">工研院/黃先生</a><br/>
+            硬体名稱：<span  style="color:#666;">SEAGATE 3.5 40G</span><br/>
+            硬體型號：<span  style="color:#666;">9T70023XXX</span> <br/>
+            故障原因：<span  style="color:#666;">有異常聲完全無法辨識</span><br/>
+            處理狀況：<span  style="color:#666;">成功救回多年研究DATABASE</span> </p>
+        </div>
+        <div class="box"> <img src="images/s/s057.jpg"/>
+          <p><a href="success.html" style="color:#f00; font-size:14px;">國保人壽保險股份公司/朱生生</a><br/>
+            硬体名稱：<span  style="color:#666;">HITACHI 3.5 20G</span><br/>
+            硬體型號：<span  style="color:#666;">TVNJ6XXX</span> <br/>
+            故障原因：<span  style="color:#666;">強烈怪聲長時間開機..</span><br/>
+            處理狀況：<span  style="color:#666;">成功救回多年SQL DATABASE</span> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-----------right end---------->
+  <div class="clear"></div>
+</div>
+<!--------------main end------------>
+<p style="line-height: 10px">&nbsp;<br>
+<div id="footer">
+  <p>地址：(100)台北市中正區同安街73巷6號   (新店線捷運古亭2號出口)  電話 02-33651599 傳真 02-33651598</p>
+  <span style="color:#666666;">Copyright 2012 SOS Data Recovery.All right reserved</span> </div>
+<script>
+var speed=140
+var demo=document.getElementById("demo");
+var demo2=document.getElementById("demo2");
+var demo1=document.getElementById("demo1");
+demo2.innerHTML=demo1.innerHTML
+function Marquee(){
+if(demo2.offsetTop-demo.scrollTop<=0)
+  demo.scrollTop-=demo1.offsetHeight
+else{
+  demo.scrollTop++
+}
+}
+var MyMar=setInterval(Marquee,speed)
+demo.onmouseover=function() {clearInterval(MyMar)}
+demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+</script>
+<script>
+var speed=140
+var demo=document.getElementById("demo");
+var demo2=document.getElementById("demo2");
+var demo1=document.getElementById("demo1");
+demo2.innerHTML=demo1.innerHTML
+function Marquee(){
+if(demo2.offsetTop-demo.scrollTop<=0)
+  demo.scrollTop-=demo1.offsetHeight
+else{
+  demo.scrollTop++
+}
+}
+var MyMar=setInterval(Marquee,speed)
+demo.onmouseover=function() {clearInterval(MyMar)}
+demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}
+
+var objs = $(".flashColor");
+setInterval(
+	function(){
+		for(var i = 0 ; i < objs.length ; i ++){
+
+			var obj = $(objs[i]);
+			var current =obj.css("color");
+
+			if(current=='rgb(255, 0, 0)'){
+				obj.css("color" , "black");
+			}else{
+				obj.css("color" ,"red");
+			}
+		}
+} , 500);
+</script>
+</body>
+<script type="text/javascript" src="<a href="http://chat.53kf.com/kf.php?arg=computerfox7&style=" target="_blank">
+	http://chat.53kf.com/kf.php?arg=computerfox7&style=1</a>">
+ </script>
+</html>

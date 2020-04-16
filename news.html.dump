@@ -1,0 +1,376 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="資料救援, 資料回複, 救資料, 硬碟救援, 硬碟資料, 硬碟故障, 硬碟損壞, BIOS抓不到, 誤格式化, 硬碟受損, 誤分割, 誤刪除資料, 資料覆寫, 檔案覆寫, 硬碟無法開機, 讀不到資料, 資料毀損, 資料遺失, 檔案不見, Ghost錯誤, 誤刪除磁區, data recovery, 病毒破壞, 中毒, 磁碟陣列, RAID, 搶救資料, 拯救資料, 硬碟送修, 救回資料, 資料還原, 救硬碟, 資料恢複, 救回檔案" /><title>免費公益活動</title>
+<link type="text/css" href="css/main.css" rel="stylesheet" />
+<script type="text/javascript" language="javascript" >
+	function showMenu(menus,lefts){
+	//.style.marginLeft
+	//alert("guipyuipy");
+		var arr = ['fwxm','hdxx','xs','ly'];
+		
+		for(var i=0;i<arr.length;i++){
+		
+			document.getElementById(arr[i]).style.display='none';
+		}
+		//alert("sss");
+		//show.display='block';
+		 var a = new Array();
+		a = document.getElementsByName("menu");
+		//for (i = 0; i < a.length; i++) {
+		//	a[i].style.display='none';
+			//a[i].className = "";
+	   // } 
+			var show=document.getElementById(menus);
+	  // show.className = "visit";
+	   show.style.display='block';
+		//show.style.marginLeft=left;
+	}
+</script>
+<script src="js/langauge.js" type="text/javascript" language="javascript"></script>
+<script src="js/menus.js" language="javascript" type="text/javascript"></script>
+
+ 
+<style>
+
+#demo2{
+height:auto;
+text-align:left;
+}
+#demo1  li{
+list-style-type:none;
+height:22px;
+background:url() no-repeat left center;
+text-align:left;
+text-indent:15px;
+}
+#demo2  li{
+list-style-type:none;
+height:22px;
+background:url() no-repeat left center;
+text-align:left;
+text-indent:15px;
+}
+</style><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2402952-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
+
+
+<body>
+  <div id="top">
+    <div class="logo"><img src="images/logo.jpg" /></div>
+	<div class="top_right">
+	    <div class="link"><a href="index.html" >返回首頁</a> | <a href="adress02.html">聯繫我們</a> | <a href="kf.html">線上客服</a>|<a href="jt/index.html">簡體中文</a> </div>
+	    <div class="language"> <a href="jt/index.html"><img src="images/11.jpg" /></a>
+		 <a href="jp/index.html"><img src="images/12.jpg" /></a>
+		 <a href="en/index.html"><img src="images/13.jpg" /></a>
+		 <a href="../index.html"><img src="images/14.jpg" /></a>
+	    </div>
+		
+    	</div>	
+		<div class="clear"></div>  <div style="float:right;"><a href="kf.html"><img src="images/phone.jpg" /></a></div>
+</div><!----------top end- margin-left:40px;-------->	
+		
+		
+		<div class="nav">
+		   <div style="float:left;"><img src="images/nav-left.gif" /></div>
+		    <ul>
+		       <li><a   href="fwxm.html" onmouseover="showMenu('fwxm','40')">服務項目</a></li>			   
+		       <li><a href="cglsm.html">成功率說明</a></li>
+		       <li><a  class="visit" href="news.html">免費公益活動</a></li>
+		       <li><a href="hr.html" onmouseover="showMenu('xs','40')">24HR緊急報修  </a></li>
+		       <li><a href="main.htm" onmouseover="showMenu('hdxx','284')" >公司地址</a></li>
+		       <li><a href="success.html">知名成功案例</a></li>
+		       <li><a href="https://app.myweb.hinet.net/guestbook/guestbook.asp?uid=sex999" target="_blank" onmouseover="showMenu('ly','152')">留言板</a></li>
+               <li style="background:none;"><a href="kf.html">線上客服</a></li>
+		     </ul>
+		                                                       
+		   <div style="float:right;"><img src="images/nav-right.gif" /></div>
+	<div class="clear"></div>
+		      <div class="nav_02" name="menu" id="fwxm">
+                       <a href="data recovery service.htm">硬碟資料救援</a>
+                       <a href="raid.html">RIAD磁碟陣列資料救援</a>
+                       <a href="delete.html">代客銷毀資料</a>
+                       <a href="backup.html">代客備份資料</a>
+                       <a href="flesh.htm">隨身碟資料救援</a>
+					   <a href="gongsi.html">公司沿格</a> 
+                       
+                    </div>
+
+                      
+               
+                     <div class="nav_02" style=" display:none;" name="menu" id="hdxx">
+                       <a href="main.html">台灣台北收件中心</a>
+                       <a href="adress02.html">大陸杭州收件中心</a>
+                       <a href="adress03.html">日本東京收件中心</a>
+                       <a href="adress04.html">美國洛杉磯收件中心</a>
+                      </div>
+					  <div class="nav_02" style=" display:none;"  name="menu" id="xs">
+                       <a href="#">線上維修表單</a>
+                      </div>
+					  <div class="nav_02" style=" display:none;" name="menu" id="ly">
+                       <a href="https://app.myweb.hinet.net/guestbook/guestbook.asp?uid=sex999" target="_blank">線上留言</a>
+                      </div>
+                    
+		</div>
+		
+		<div id="banner">
+
+		</div>
+
+		
+  <div id="main">
+    <div class="left">
+	  <div class="left_nr">
+	     <div class="left01">
+	         <a href="#"><img src="images/tit_01.jpg" /></a>
+	        <ul>
+			  <li><a href="paypal.html">paypal線上付款</a></li>
+		      <li><a href="fizaldata recovery service.htm">救資料免費教學</a></li>
+		      <li><a href="class.html">手機程式AP設計</a></li>
+			  <li><a href="zhaopin.html">最新招聘訊息庫</a></li>
+		      <li><a href="hdauto.html">硬碟的運作原理</a></li>
+		      <li><a href="news.html">活動訊息資料庫</a></li>
+		      <li><a href="http://settings.messenger.live.com/Conversation/IMMe.html?invitee=622424d0cc2b94d1@apps.messenger.live.com&mkt=en-US" target="_blank">獻上即時通話器</a></li>
+	        </ul>
+	     </div>
+		 <div class="clear"></div>
+		 <div class="left04" id="scrollDiv" >
+		   <p><img src="images/tit004.jpg" /></p>
+		   <p>&nbsp; </p>
+		   
+		   
+<div id="demo" style="overflow:hidden;height:290px;width:230px;line-height:24px;text-align:center">
+<ul id="demo1" style="text-align:center;">  
+        台灣積體電路製造股份有限公司<br>
+        家事達不動產有限公司<br>
+        中華民國外交部<br>
+        聯華電子股份有限公司<br>
+        鴻海精密工業(股)公司<br>
+        中央選舉委員會<br>
+        高雄醫學院附設醫院<br>
+        教育測驗出版社<br>
+        中國鋼鐵股份有限公司<br>
+        國立清華大學<br>
+        泰藝電子股份有限公司<br>
+        國軍高雄總醫院<br>
+        裕隆汽車<br>
+        日月光半導體製造股份有限公司<br>
+        新光金融控股股份有限公司<br>
+        南亞科技股份有限公司<br>
+        大同股份有限公司<br>
+        中華航空股份有限公司<br>
+        國立中山大學<br>
+        鳳凰衛視<br>
+        亞東醫院外科陳醫生<br>
+        遠東國際商業銀行<br>
+        腳映國際有限公司<br>
+        國立臺灣師範大學<br>
+        新竹南門綜合醫院<br>
+        環球優士技術有限公司<br>
+        長庚大學<br>
+        精誠資訊股份有限公司<br>
+        臺灣電視事業股份有限公司<br>
+        黑松股份有限公司<br>
+        台灣玻璃工業股份有限公司<br>
+        美國USA羅技公司LA總部<br>
+        佳世達科技股份有限公司<br>
+        晶通電子股份有限公司<br>
+        國立中正大學<br>
+        HEADQUARTERS<br>
+        裕隆汽車製造股份有限公司<br>
+        群益證券股份有限公司<br>
+        旺矽科技股份有限公司<br>
+        全國性文藝團體<br>
+        金寶電子工業股份有限公司<br>
+        矽統科技股份有限公司<br>
+        元富證券股份有限公司<br>
+        元智大學實驗室<br>
+        東吳大學城中校區<br>
+        緯創資通股份有限公司<br>
+        國立中山大學實驗室<br>
+        國立交通大學<br>
+        致新科技股份有限公司<br>
+        威盛電子股份有限公司<br>
+        正新橡膠工業股份有限公司<br>
+        聯強國際股份有限公司<br>
+        吳毓廷建築師事務所<br>
+        京城商業銀行股份有限公司<br>
+        長榮國際儲運股份有限公司<br>
+        欣興電子股份有限公司<br>
+        國立成功大學<br>
+        正隆股份有限公司<br>
+        華泰電子股份有限公司<br>
+        三商行股份有限公司<br>
+        神基科技股份有限公司<br>
+        成科技股份有限公司<br>
+        智邦科技股份有限公司<br>
+        國軍813醫院<br>
+        林口長庚醫院<br>
+        瑞昱半導體股份有限公司<br>
+        國立臺灣大學實驗室<br>
+        美國安麗公司<br>
+        高林實業股份有限公司<br>
+        國賓大飯店股份有限公司<br>
+        師大美術研究所<br>
+        新北市協助影視拍攝與發展中心<br>
+        宏達國際電子股份有限公司<br>
+        仁寶電腦工業股份有限公司<br>
+        中華開發金融控股股份有限公司<br>
+        中華電信股份有限公司<br>
+        中華映管股份有限公司<br>
+        國立中興大學<br>
+        海洋大學實驗室<br>
+        臺灣中小企業銀行股份有限公司<br>
+        仁寶電腦工業股份有限公司<br>
+        臺灣中小企業銀行股份有限公司<br>
+        台灣大哥大股份有限公司<br>
+        華碩電腦股份有限公司<br>
+        統一企業股份有限公司<br>
+        義隆電子股份有限公司<br>
+        大陸工程股份有限公司<br>
+        聯成化學科技股份有限公司<br>
+        三陽工業股份有限公司<br>
+        台北市立忠孝醫院<br>
+        國立中央大學<br>
+        黑松股份有限公司<br>
+        聯詠科技股份有限公司<br>
+        富邦金融控股股份有限公司<br>
+        台北醫學院附設醫院<br>
+        南亞塑膠工業股份有限公司<br>
+        永豐金融控股股份有限公司<br>
+        台新金融控股股份有限公司<br>
+        鴻海精密工業股份有限公司<br>
+        台北縣板橋醫院<br>
+        彰化商業銀行股份有限公司<br>
+        大榮汽車貨運股份有限公司<br>
+        龍邦開發股份有限公司<br>
+        合勤科技股份有限公司<br>
+        馬偕淡水分院<br>
+        豐泰企業股份有限公司<br>
+        中鼎工程股份有限公司<br>
+        三軍總醫院<br>
+        晶元光電股份有限公司(晶電)<br>
+        高林實業股份有限公司<br>
+        國賓大飯店股份有限公司<br>
+        義隆電子股份有限公司<br>
+        桐化學股份有限公司<br>
+        台達電子工業股份有限公司<br>
+        萬海航運股份有限公司<br>
+        兆豐金融控股股份有限公司<br>
+        國泰金融控股股份有限公司<br>
+        台塑石化股份有限公司<br>
+        中國信託金融控股股份有限公司<br>
+        萬泰商業銀行股份有限公司<br>
+        元大金融控股股份有限公司<br>
+        奇美電子股份有限公司<br>
+        友達光電股份有限公司<br>
+
+</ul> 
+<div id="demo2" style="text-align:center"></div>
+</div>
+		   
+	    </div> 
+		
+
+	  </div>
+
+	    <div class="left03">
+	        <a href="question.htm"><img src="images/004.jpg" /></a>
+	  	    <a href="download.html"><img src="images/002.jpg" /></a>
+		    <a href="kf.html" ><img src="images/003.jpg" /></a>
+		    <a href="hkxg.html"><img src="images/001.jpg" /></a>
+	    </div>
+		
+     
+	</div><!--------left end---------->
+	<div class="zy_right">
+      <div class="zy_tit01">
+        <h4>免費公益活動</h4>
+        <div><a href="index.html">首页</a><span style="color:#333; padding-left:5px;">免費公益活動</span></div>
+      </div>
+      
+	  <div class="zxy_01" style=" width:670px;margin-top:10px; ">
+	    <div class="hdxx1" >
+           <ul>
+            <li><span>2012-8-30</span><a href="#">本中心即日起提供硬碟資料救援(免費檢測電話諮詢服務)</a></li>
+            <li><span>2012-8-28</span><a href="#">本中心 101/08/01-101/08/15 為技術研習時間 暫停營業</a></li>
+            <li><span>2012-3-30</span><a href="#">本中心即日起送件以及取件客戶 (開放免費停車1小時) 請事先預約</a></li>
+            <li><span>2012-3-30</span><a href="fizaldata recovery service.htm">本中心即日起消費完成客戶(免費贈送2.5吋 3.5吋外接盒)選其一贈送送完為止</a></li>
+            <li><span>2012-3-30</span><a href="#">本中心即日起提供客戶  營業時間 (免費上網服務)</a></li>
+            <li><span>2012-3-30</span><a href="#">本中心即日起免費贈送 (精美腳踏車U型鎖) 提供消費完成客戶送完為止</a></li>
+			<li><span>2012-3-30</span><a href="#">本中心即日起免費提供 (雨天愛心傘服務) 借完為止</a></li>
+            <li><span>2012-3-30</span><a href="http://eugg.blogspot.tw/2010/02/blog-post.html">免費電子書下載網站</a></li>
+            <li><span>2012-3-30</span><a href="#">新北市免費巴士(交通局陳文瑞副局長 電話：本市境內1999轉6979)</a></li>
+			<li><span>2012-3-30</span><a href="#">台北市(老人健康檢查) 65歲且設藉於台北市之老人婦幼 電話：(02)2391-6470</a></li>
+			<li><span>2012-1-19</span><a href="#">心理健康講座(免費公益活動) 2012年臺北市諮商心理師公會 電話：02-2389-0188</a></li>
+			<li><span>2012-1-18</span><a href="#">台北縣民6小時(免費電腦課程)電腦基本概論與操作請撥打02-27005858-1，由專人為您服務</a></li>
+            <li><span>2012-3-30</span><a href="#">參加2012國際日月潭萬人泳渡2012/9/16  相關訊息請查閱049-2916711</a></li>
+            <li><span>2012-3-30</span><a href="http://www.training.taipei.gov.tw/CtzTrn/">臺北市政府免費電腦訓練-網路世界任你遊 電話報名：1999 轉 8581、8580</a></li>
+			<li><span>2012-3-30</span><a href="#">免費法律諮詢服務由專業律師來幫您解決法律疑惑 02-27256168或1999轉6168</a></li>
+			<li><span>2012-3-30</span><a href="news_details1.html">臺北市免費無線上網服務熱點查詢</a></li>
+            <li><span>2012-3-30</span><a href="#">申請台北市 免費停車服務 請洽台北市政府社會局</a></li>
+			<li><span>2012-3-30</span><a href="#">臺北市政府101年5月1日低收入身障輪椅族搭小復康每月(8趟次免費)</a></li>
+            <li><span>2012-3-30</span><a href="#">台北市政府提供(免費腳踏車)以後每15分鐘也只要NT$10元的租金</a></li>
+            <li><span>2012-3-30</span><a href="http://www.carpoolking.com/">一起響應愛護地球一起響應(免費共乘服務)</a></li>
+			<li><span>2012-3-30</span><a href="http://exchange.kijiji.com.tw/">(免費以物易物交換)網真正為你省下您的開銷</a></li>
+			<li><span>2012-3-30</span><a href="#">急難濟助 無力解決的問題 找我就對了TEL：02-23628232TEL:+886-2-27482501</a></li>     
+          </ul>  
+		 
+        </div> 
+	
+		<div style="margin:0 0 0 0; padding:0 0 0 0;">
+		 
+		 <img src="images/hd2.jpg" width="690" height="214" /></div>
+		 
+		 
+	  </div> 
+		  
+		<div class="clear"></div>  
+		   	
+       </div>
+	  <div class="clear"></div>
+
+	</div><!-----------zy_right end---------->
+	
+	
+  
+	
+		
+ <div id="footer">
+      <p>地址:(100)台北市中正區同安街73巷6號   (新店線捷運古亭2號出口)  電話:02-33651599  傳真:02-33651598</p>
+       <span style="color:#666666;">Copyright 2012 SOS Data Recovery.All right reserved</span>
+ 
+ </div>
+		
+	
+  <script> 
+var speed=140 
+var demo=document.getElementById("demo"); 
+var demo2=document.getElementById("demo2"); 
+var demo1=document.getElementById("demo1"); 
+demo2.innerHTML=demo1.innerHTML 
+function Marquee(){ 
+if(demo2.offsetTop-demo.scrollTop<=0) 
+  demo.scrollTop-=demo1.offsetHeight 
+else{ 
+  demo.scrollTop++ 
+} 
+} 
+var MyMar=setInterval(Marquee,speed) 
+demo.onmouseover=function() {clearInterval(MyMar)} 
+demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)} 
+</script> </body>
+</html>
+
